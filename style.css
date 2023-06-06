@@ -1,0 +1,97 @@
+*{
+    font-family: 'inter';
+    margin: 0px;
+}
+#titulo1{
+    margin-left: 62px;
+    font-size: 60px;
+    padding-top: 150px;
+}
+#texto1{
+    margin-left: 62px;
+    margin-top: 14px;
+    font-size: 20px;
+    padding-bottom: 149px;
+}
+#menusuperior{
+    background-image: url(imagens/fundo-superior.svg);
+    color: aliceblue;
+}
+#menuinformacional{
+    display: grid;
+    columns: auto;
+    grid-auto-flow: column;
+    padding-left: 171px;
+    font-size: 20px;
+    padding-top: 96px;
+    padding-bottom: 66.82px;
+    background-image: url(imagens/fundo-informacional.svg);
+}
+.number1{
+    font-size: 40px;
+}
+#menuhistoria{
+    display: grid;
+    columns: auto;
+    grid-auto-flow: column;
+}
+#titulofoto{
+    font-size: 30px;
+}
+#textofoto{
+    padding-top: 304px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+#fotografia{
+    padding-top: 82px;
+}
+#formulario{
+    text-align: center;
+    background-image: url(imagens/fundo-formulario.svg);
+    margin-top: 92px;
+    color: white;
+}
+#titulo-formulario{
+    padding-top: 87px;
+    font-size: 32px;
+}
+input{
+    margin-top: 48px;
+    width: 508px;
+    height: 72px;
+    background-color: white;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-family: 'raleway';
+    font-weight: bold;
+    font-size: 24px;    
+    color: rgba(0, 0, 0, 0.571);
+    transform: translateY(-7px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.573);
+}
+button{
+    margin-top: 88px;
+    width: 286px;
+    height: 74px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgba(192, 114, 18, 1);
+    font-size: 30px;
+    color: white;
+    font-family: 'raleway';
+    font-weight: bold;
+    margin-bottom: 87px;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.574);
+    background-color: rgb(224, 143, 45);
+    transition-duration: 0.9s;
+
+}
+
+
+
